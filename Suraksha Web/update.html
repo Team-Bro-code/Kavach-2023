@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add officer</title>
+    <link rel="stylesheet" href="admin.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+    <!-- <h1>SURAKSHA</h1> -->
+    <div class="form">
+      <!-- Email  -->
+      <div class="name">
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Full name"
+        />
+      </div>
+      <!-- passWord -->
+      <div class="Id">
+        <label for="name">Employee ID</label>
+        <input
+          type="text"
+          name="id"
+          id="id"
+          placeholder="Employee Id"
+        />
+      </div>
+      <div class="email">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email Id"
+        />
+      </div>
+
+      <!-- Sign Up button -->
+      <button id="submit-btn" onclick="">Update</button>
+    </div>
+
+    <script src="adminfb.js"></script>
+  </body>
+</html>

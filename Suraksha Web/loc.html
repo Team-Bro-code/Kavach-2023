@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Geolocation</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="geo.css" />
+    <script>
+        var IPGeolocationAPI = require('ip-geolocation-api-javascript-sdk');
+
+// Create IPGeolocationAPI object. Constructor takes two parameters.
+// 1) API key (Optional: To authenticate your requests through "Request Origin", you can skip it.)
+// 2) Async (Optional: It is used to toggle "async" mode in the requests. By default, it is true.)
+var ipgeolocationApi = new IPGeolocationAPI("cae53b3c99d04a7e8cb6968f98243760", false); 
+var TimezoneParams = require('ip-geolocation-api-javascript-sdk/TimezoneParams.js');
+
+// Get time zone information by time zone ID
+var timezoneParams = new TimezoneParams();
+timezoneParams.setTimezone('America/Los_Angeles');
+
+ipgeolocationApi.getTimezone(handleResponse, timezoneParams);
+
+// Get time zone information by latitude and longitude of the location
+var timezoneParams = new TimezoneParams();
+timezoneParams.setCoordinates('37.1838139', '-123.8105225');
+
+ipgeolocationApi.getTimezone(handleResponse, timezoneParams);
+
+// Get time zone information for IP address (1.1.1.1) and geolocation information Japanese**
+var timezoneParams = new TimezoneParams();
+timezoneParams.setIPAddress('1.1.1.1');
+
+ipgeolocationApi.getTimezone(handleResponse, timezoneParams);
+
+// Query time zone information for calling machine's IP address
+ipgeolocationApi.getTimezone(handleResponse);
+    </script>
+    <body>
+
+  </body>
+</html>

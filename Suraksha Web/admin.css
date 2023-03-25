@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+     
+  background-image: url(../images/map.jpg);
+
+  min-height: 380px;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+
+button{
+    border: none;
+    background-color: rgb(0, 0, 0);
+/*    width: 100%;*/
+    padding: 10px 40px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 9px 0px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+p{
+/*    width: 100%;*/
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('https://matthiasgruber.ch/wp-content/uploads/sites/624/Fotolia_CyberSecurity_178545871_L.jpg');
+    color: #FFFFFF;
+    min-height: 380px;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*.bg-img {
+ 
+  background-image: url(../images/map.jpg);
+
+ 
+  min-height: 380px;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+
+/*.form {
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;;
+    border-radius: 5px;
+    background-color: black;
+    padding: 5px 10px;
+
+}*/
+
+label {
+    display: block;
+    font-weight: bolder;
+    margin: 5px 0px;
+    color: white;
+}
+
+input {
+/*    margin-right: 200px;*/
+/*    display: flex;
+    justify-content: right;
+    align-items: right;*/
+
+    width: 100%;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+#submit-btn {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 9px 0px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+} 
+
+h1{
+   margin-bottom: 500px;
+   font-size: 70px;
+   font-family: Serif;
+
+}
+
+p {
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+}

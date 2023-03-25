@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add officer</title>
+    <link rel="stylesheet" href="admin.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+  </head>
+  <body>
+    <div class="form">
+      <!-- Email  -->
+      <div class="id">
+        <label for="id">ID</label>
+        <input
+          type="text"
+          name="id"
+          id="id"
+          placeholder="Enter your id"
+        />
+      </div>
+      <!-- passWord -->
+      <div class="names">
+        <label for="names">Name</label>
+        <input
+          type="text"
+          name="names"
+          id="names"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="email">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="position">
+        <label for="position">Position</label>
+        <input
+          type="text"
+          name="position"
+          id="position"
+          placeholder="Enter your position"
+        />
+      </div>
+      <div class="passwords">
+        <label for="passwords">Password</label>
+        <input
+          type="password"
+          name="passwords"
+          id="passwords"
+          placeholder="Enter your password"
+        />
+      </div>
+
+      <!-- Sign Up button -->
+      <button id="submit-btn" onclick="addEmployee()">Add officer</button>
+    </div>
+
+    <script src="add.js"></script>
+  </body>
+</html>
