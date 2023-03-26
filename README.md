@@ -18,15 +18,5 @@ In case the GPS availability is limited or unavailable, the app switches to usin
 The alternative solution to NFC or GPS can be using Bluetooth, wherein the using the Bluetooth the nearby presence of the officer can be authenticated automatically.
 
 The backend is setup using firebase, a platform provided by Google Inc. which provided maximal security of the data and makes the database less prone to being hacked.
-![image](https://user-images.githubusercontent.com/87411045/227756087-0f2c82d4-4b7c-4ee7-a1b3-800f5be68d9b.png) ![image](https://user-images.githubusercontent.com/87411045/227756106-eafff795-27b9-430b-8255-d9c024494243.png)
-
-![image](https://user-images.githubusercontent.com/87411045/227756111-d6eca96f-c12a-4843-bd8a-e0e0f62d9c7c.png)
-
-![image](https://user-images.githubusercontent.com/87411045/227756112-deb96ecc-e86e-40b6-8792-04f06f20e74b.png)
-
-![image](https://user-images.githubusercontent.com/87411045/227756124-2cae4ed8-f64f-428f-b9a8-bc9d5e5f8aab.png)
-
-![image](https://user-images.githubusercontent.com/87411045/227756126-0ca06036-ca2c-4aad-8092-81e580732c4d.png)
-
-![image](https://user-images.githubusercontent.com/87411045/227756130-2ebe333d-b185-488a-9494-b135a1fd49ef.png)
+![image](https://user-images.githubusercontent.com/87411045/227756087-0f2c82d4-4b7c-4ee7-a1b3-800f5be68d9b.png) ![image](https://user-images.githubusercontent.com/87411045/227756106-eafff795-27b9-430b-8255-d9c024494243.png)![image](https://user-images.githubusercontent.com/87411045/227756111-d6eca96f-c12a-4843-bd8a-e0e0f62d9c7c.png)![image](https://user-images.githubusercontent.com/87411045/227756112-deb96ecc-e86e-40b6-8792-04f06f20e74b.png)![image](https://user-images.githubusercontent.com/87411045/227756124-2cae4ed8-f64f-428f-b9a8-bc9d5e5f8aab.png)![image](https://user-images.githubusercontent.com/87411045/227756126-0ca06036-ca2c-4aad-8092-81e580732c4d.png)![image](https://user-images.githubusercontent.com/87411045/227756130-2ebe333d-b185-488a-9494-b135a1fd49ef.png)
 
