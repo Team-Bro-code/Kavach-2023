@@ -18,8 +18,7 @@ In case the GPS availability is limited or unavailable, the app switches to usin
 The alternative solution to NFC or GPS can be using Bluetooth, wherein the using the Bluetooth the nearby presence of the officer can be authenticated automatically.
 
 The backend is setup using firebase, a platform provided by Google Inc. which provided maximal security of the data and makes the database less prone to being hacked.
-![image](https://user-images.githubusercontent.com/87411045/227756087-0f2c82d4-4b7c-4ee7-a1b3-800f5be68d9b.png)
-![image](https://user-images.githubusercontent.com/87411045/227756106-eafff795-27b9-430b-8255-d9c024494243.png)
+![image](https://user-images.githubusercontent.com/87411045/227756087-0f2c82d4-4b7c-4ee7-a1b3-800f5be68d9b.png) ![image](https://user-images.githubusercontent.com/87411045/227756106-eafff795-27b9-430b-8255-d9c024494243.png)
 
 ![image](https://user-images.githubusercontent.com/87411045/227756111-d6eca96f-c12a-4843-bd8a-e0e0f62d9c7c.png)
 
